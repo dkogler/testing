@@ -1,0 +1,30 @@
+
+body {
+  background-color: darkgreen;
+}
+
+#board {
+  width: 440px;
+  height: 440px;
+  border: 1px solid white;
+  background-color: black;
+  position: relative;
+}
+
+.gameItem {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: lime;
+}
+
+.tails {
+    background-color: palegoldenrod;
+}
+
+#head {
+  background-color: orange;
+  left: 20px;
+  top: 20px;
+}
+

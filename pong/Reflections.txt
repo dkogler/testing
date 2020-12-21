@@ -1,0 +1,27 @@
+User story/ gameplay:
+1: Describe the gameplay. Two player battle to the death by hitting a ball back and forth with two virtual paddles.
+2:What are the conditions when the game begins.
+The game will begin with the paddles starting on oppisit sides one will be placed close to 0,0 and the other close to the max board with and hight (450,450ish).
+the score will be set to 0 for both sides. The ball will choose a random direction to go in (diagonal-left,diagonal or right).
+the width of the paddles will be 30px by 120px, the ball will be 25px rounded.
+3:Does the game have an end? If so, what are the conditions for when it ends.
+Yes it ends. The conditions for the end will be when the ball goes off screen on the apposing side of one of the players (11 points).
+4:What ifs will there be.
+there will be many. ifs for collision, for collision, and possibly movemnt.
+
+Visual Game Components:
+1: What are the visual game components? For example, in Bouncing Box, the game components were the board and the box.
+we will have the board, the paddles, the ball, and the score.
+ the board and score will be static, but the paddles and the ball will be animated.
+2:What data will you need to manage each game component?
+the position of the two paddles, the position of the ball, the speed of the ball, and possibly the speed of the paddles. Also the score of the game too.
+
+Events /addle is moved up and when the s key is pressed the player1 paddle will be moved down.
+ when the ball colides with a padd Logic:
+1: What events will occur in this game? (timer events, keyboard events, clicking events?)
+ when the up arrow is pressed the player2 paddle will move up, when the down arrow is pressed the player2 paddle will move down.
+ when the game starts a timer will take the place of the score and count doen the match, when that is done the score will be displaied.
+ when the w key is pressed the player1 ple the velocity of the ball will be reverced.
+ when the ball moves out of bounds the round will end and a new round will start, and the paddles will be reset.
+ when the score for one of the players reaches 11 then the game ends.
+ when the game ends the score is reset and the paddles do back to normal.
